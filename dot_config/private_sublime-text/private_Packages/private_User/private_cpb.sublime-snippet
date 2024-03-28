@@ -1,0 +1,91 @@
+<snippet>
+	<content><![CDATA[
+#include<bits/stdc++.h>
+using namespace std;
+
+#define nl '\n'
+#define sp ' '
+#define int int64_t
+#define uint uint64_t
+
+/* Custom Loop
+============== */
+#define M(_1, _2, _3, _4, NAME, ...) NAME
+#define rep(...) \
+  M(__VA_ARGS__, rep4, rep3, rep2, rep1)(__VA_ARGS__)
+#define rep4(_, start, end, step) \
+  for (int _ = start; (step < 0) ? _ > end : _ < end; _ += step)
+#define rep3(_, start, end) rep4(_, start, end, (start < end ? 1 : -1))
+#define rep2(_, end) rep3(_, 0, end)
+#define rep1(n) rep2(i, end)
+/* =========== */
+
+#define all(x) (x).begin(), (x).end()
+#define allr(x) (x).rbegin(), (x).rend()
+#define len(x) int((x).size())
+
+/* Variable/Container Debugger
+============================== */
+int case_number = 1; //global variable
+
+#ifdef DEBUG
+#define debug(var) cerr << #var << " = "; _print(var); cerr << nl;
+template <typename T> void _print(T t) {cerr << t;}
+template <typename T, typename V> void _print(pair <T, V> p) {cerr << "{"; _print(p.first); cerr << ","; _print(p.second); cerr << "}";}
+template <typename T, typename V> void _print(map <T, V> v) {cerr << "[ "; for (auto i : v) {_print(i); cerr << " ";} cerr << "]";}
+template <typename T> void _print(vector <T> v) {cerr << "[ "; for (T i : v) {_print(i); cerr << " ";} cerr << "]";}
+template <typename T> void _print(set <T> v) {cerr << "[ "; for (T i : v) {_print(i); cerr << " ";} cerr << "]";}
+template <typename T> void _print(multiset <T> v) {cerr << "[ "; for (T i : v) {_print(i); cerr << " ";} cerr << "]";}
+#else
+#define debug(var) // do nothing
+#endif
+/* =========================== */
+
+/* Function Debugger
+==================== */
+template<typename ...T>
+void printer(T&&... args) {((cerr << args << " "), ...);}
+template<typename F>
+auto debug_func(const F& func) {return [func](auto && ...args) {cerr << "in = "; printer(args...); auto res = func(forward<decltype(args)>(args)...); cerr << "res = " << res << endl; return res;};}
+/* ================= */
+
+/* Container read/write from/to stdin/stdout
+======================================== */
+template <typename T>
+std::ostream& operator<<(std::ostream& output, const std::vector<T>& container) {for (const T& item : container) {output << item << " ";} return output;}
+template<typename T>
+std::istream& operator>>(std::istream& input, std::vector<T>& container) {for (T& item : container) {input >> item;} return input;}
+/* ===================================== */
+
+void _main() {
+	$1
+}
+
+// problem-url:
+int32_t main() {
+	ios_base::sync_with_stdio(false);
+	cin.tie(NULL);
+
+	// cerr.rdbuf(nullptr); // Redirect cerr to null stream
+
+	int test_cases = 1;
+	cin >> test_cases; // comment this out for a single test case
+
+	while (case_number <= test_cases) {
+#ifdef DEBUG
+		cerr << "Case #" << case_number << ": " << nl;
+#endif
+		_main();
+		case_number++;
+#ifdef DEBUG
+		cerr << "====================" << nl;
+#endif
+	}
+	return 0;
+}
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>cpb</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.c++</scope>
+</snippet>

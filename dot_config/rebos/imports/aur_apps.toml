@@ -1,0 +1,22 @@
+pkg_managers.system.pkgs = [
+	"brave-bin",
+	"pycharm-professional",
+	"nautilus-admin-gtk4",
+	"morewaita",
+	"pokemon-colorscripts-git",
+	"nnn-nerd",
+	"informant",
+	"proton-vpn-gtk-app",
+	"gnome-shell-extension-dash-to-dock",
+	"visual-studio-code-bin",
+	"webcord-bin",
+	"google-chrome",
+	"adw-gtk3",
+	"lazydocker-bin",
+	"pam-fprint-grosshack",
+	"ventoy-bin",
+	"notify-send.sh",
+	"megasync-bin",
+	"sublime-text-4",
+]
+

@@ -1,0 +1,19 @@
+" vim-plug
+call plug#begin()
+
+Plug 'morhetz/gruvbox'
+Plug 'vim-airline/vim-airline'
+Plug 'vim-airline/vim-airline-themes'
+Plug 'preservim/nerdtree'
+Plug 'mbbill/undotree'
+Plug 'junegunn/fzf'
+
+call plug#end()
+
+" custom configs
+:set number relativenumber
+
+" custom key maps
+map <Enter> o
+map <S-Enter> O
+imap jj <ESC>

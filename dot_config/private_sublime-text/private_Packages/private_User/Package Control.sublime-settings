@@ -1,0 +1,20 @@
+{
+	"bootstrapped": true,
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"A File Icon",
+		"CppFastOlympicCoding",
+		"gruvbox",
+		"LSP",
+		"LSP-clangd",
+		"Package Control",
+		"SideBarEnhancements",
+		"SublimeAStyleFormatter",
+		"SublimeLinter",
+		"SublimeLinter-gcc",
+		"Terminus",
+	],
+}

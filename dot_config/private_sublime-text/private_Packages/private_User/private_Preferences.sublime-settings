@@ -1,0 +1,20 @@
+{
+	"font_face": "JetBrainsMono Nerd Font",
+	"font_options": ["no_liga", "no_clig", "no_calt"],
+	"word_wrap": "true",
+	"font_size": 14,
+	"auto_complete": true,
+	"auto_complete_commit_on_tab": true,
+	"caret_style": "smooth",
+	"block_caret": true,
+	"save_on_focus_lost": true,
+	"ui_scale": 1.25,
+	"show_rel_path": true,
+	"theme": "Adaptive.sublime-theme",
+	"index_files": false,
+	"color_scheme": "Packages/gruvbox/gruvbox (Dark) (Hard).sublime-color-scheme",
+	"ignored_packages":
+	[
+		"Vintage",
+	],
+}

@@ -1,0 +1,62 @@
+# --------------------- #
+#    Generation File    #
+# --------------------- #
+
+# Other generation files to import. (Example: intensive_apps -> ~/.config/rebos/imports/intensive_apps.toml)
+imports = [
+    "aur_apps"
+]
+
+# Packages to be installed via the native package manager.
+pkg_managers.system.pkgs = [
+	"libreoffice-fresh",
+	"ripgrep",
+	"most",
+	"jq",
+	"telegram-desktop",
+	"go",
+	"snapper",
+	"jdk-openjdk",
+	"bat",
+	"fd",
+	"docker",
+	"timeshift",
+	"vlc",
+	"seahorse",
+	"bitwarden",
+	"fzf",
+	"fish",
+	"obsidian",
+	"font-manager",
+	"yay",
+	"zoxide",
+	"gnome-tweaks",
+	"network-manager-applet",
+	"gnome-boxes",
+	"gnome-browser-connector",
+	"git-delta",
+	"neofetch",
+	"transmission-gtk",
+	"jupyterlab",
+	"lsd",
+	"chezmoi",
+	"kitty",
+	"gparted",
+	"vim",
+	"fwupd",
+	"flatpak",
+]
+
+# Packages to be installed via Flatpak.
+pkg_managers.flatpak.pkgs = [
+    "dev.geopjr.Collision",
+	"com.github.GradienceTeam.Gradience",
+	"org.gnome.Logs",
+	"org.gnome.Firmware",
+	"org.gnome.Snapshot",
+]
+
+# Packages to be installed via Cargo.
+pkg_managers.cargo.pkgs = [
+    # "bacon",
+]
