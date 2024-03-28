@@ -1,7 +1,8 @@
 if status is-interactive
 	# starship config
-	if test $TERM = 'xterm-kitty'
+	if test $TERM = 'xterm-kitty' -o $TERM = 'xterm-256color'
 		starship init fish | source
+		enable_transience
 	end
 	
 	# zoxide source

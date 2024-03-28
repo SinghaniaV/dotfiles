@@ -1,7 +1,7 @@
 function n --wraps nnn --description 'support nnn quit and change directory'
 	# env vars
 	set -gx NNN_FIFO "/tmp/nnn.fifo nnn"
-	set -gx NNN_PAGER "most"
+	set -gx NNN_PAGER "more"
 	set -gx NNN_PLUG "p:preview-tui"
 	set -gx EDITOR "code"
 	
