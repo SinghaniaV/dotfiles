@@ -1,4 +1,9 @@
 [
 	{ "keys": ["ctrl+alt+l"], "command": "sublime_linter_panel_toggle" },
 	{ "keys": ["ctrl+`"], "command": "toggle_terminus_panel" },
+	{ "keys": ["j", "j"], "command": "exit_insert_mode",
+    "context": [
+        { "key": "setting.command_mode", "operand": false },
+        { "key": "setting.is_widget", "operand": false }
+    ]}
 ]

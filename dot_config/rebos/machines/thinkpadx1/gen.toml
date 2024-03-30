@@ -15,7 +15,6 @@ pkg_managers.system.pkgs = [
 	"jq",
 	"telegram-desktop",
 	"go",
-	"snapper",
 	"jdk-openjdk",
 	"bat",
 	"fd",

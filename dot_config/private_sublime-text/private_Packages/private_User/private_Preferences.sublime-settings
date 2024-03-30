@@ -15,6 +15,6 @@
 	"color_scheme": "Packages/gruvbox/gruvbox (Dark) (Hard).sublime-color-scheme",
 	"ignored_packages":
 	[
-		"Vintage",
+		// "Vintage",
 	],
 }

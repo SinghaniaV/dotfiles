@@ -1,4 +1,5 @@
 if status is-interactive
+
 	# starship config
 	if test $TERM = 'xterm-kitty' -o $TERM = 'xterm-256color'
 		starship init fish | source
@@ -26,10 +27,9 @@ if status is-interactive
 	alias pacup='yay -Syu' # update system
 	alias pacls='yay -Qs' # search installed package
 	alias paclsf='yay -Qm' # search AUR installed package
+	alias paclso='yay -Qdtq' # search orphaned dependencies
 	alias pacs='yay -Ss' # search availabe package
 	alias pacc='yay -Sc' # remove unused cache
-	alias pacro='yay -Qdtq | yay -Rn -' # remove unused dependencies
+	alias pacro='yay -Qdtq | yay -Rn -' # remove orphaned dependencies
 
-	# Always mkdir a path
-	abbr mkdir 'mkdir -p'
 end

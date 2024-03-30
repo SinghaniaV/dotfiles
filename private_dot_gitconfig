@@ -1,3 +1,6 @@
+[include]
+	path = /home/vishal/.config/themes.gitconfig
+
 [user]
 	name = Vishal Singhania
 	email = vishsinghania@outlook.com
@@ -26,12 +29,10 @@
     diffFilter = delta --color-only
 
 [delta]
-    line-numbers = true
-    navigate = true    # use n and N to move between diff sections
-    light = false      # set to true if you're in a terminal w/ a light background color
-
+	features = gruvmax-fang
+	
 [merge]
-    conflictstyle = diff3
+	conflictStyle = zdiff3
 
 [diff]
-    colorMoved = default
+	colorMoved = default
