@@ -33,3 +33,4 @@ if status is-interactive
 	alias pacro='yay -Qdtq | yay -Rn -' # remove orphaned dependencies
 
 end
+

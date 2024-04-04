@@ -11,6 +11,7 @@ pkg_managers.system.pkgs = [
 	"visual-studio-code-bin",
 	"webcord-bin",
 	"google-chrome",
+	"miniconda3",
 	"adw-gtk3",
 	"lazydocker-bin",
 	"pam-fprint-grosshack",
