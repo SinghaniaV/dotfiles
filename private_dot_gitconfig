@@ -6,24 +6,24 @@
 	email = vishsinghania@outlook.com
 	
 [init]
-    defaultBranch = main
+	defaultBranch = main
 
 [alias]
-    c = commit -v
-    co = checkout
-    cob = checkout -b
-    s = status
-    br = branch
-    d = diff
-    dd = diff --cached
-    l = log --oneline --graph
-    cp = cherry-pick
-    ps = push
-    pl = pull
-    pb = pull --rebase
+	c = commit -v
+	co = checkout
+	cob = checkout -b
+	s = status
+	br = branch
+	d = diff
+	dd = diff --cached
+	l = log --oneline --graph
+	cp = cherry-pick
+	ps = push
+	pl = pull
+	pb = pull --rebase
 
 [core]
-    pager = delta
+	pager = delta
 
 [interactive]
 	diffFilter = delta --color-only
