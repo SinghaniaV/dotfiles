@@ -26,7 +26,7 @@
     pager = delta
 
 [interactive]
-    diffFilter = delta --color-only
+	diffFilter = delta --color-only
 
 [delta]
 	features = gruvmax-fang
