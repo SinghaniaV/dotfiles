@@ -43,16 +43,17 @@ pkg_managers.system.pkgs = [
 	"gparted",
 	"vim",
 	"fwupd",
+	"gnome-logs",
+	"gnome-firmwar",
+	"snapshot",
 	"flatpak",
+	"geary"
 ]
 
 # Packages to be installed via Flatpak.
 pkg_managers.flatpak.pkgs = [
     "dev.geopjr.Collision",
 	"com.github.GradienceTeam.Gradience",
-	"org.gnome.Logs",
-	"org.gnome.Firmware",
-	"org.gnome.Snapshot",
 ]
 
 # Packages to be installed via Cargo.
