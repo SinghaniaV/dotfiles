@@ -44,7 +44,7 @@ pkg_managers.system.pkgs = [
 	"vim",
 	"fwupd",
 	"gnome-logs",
-	"gnome-firmwar",
+	"gnome-firmware",
 	"snapshot",
 	"flatpak",
 	"geary"
@@ -52,7 +52,8 @@ pkg_managers.system.pkgs = [
 
 # Packages to be installed via Flatpak.
 pkg_managers.flatpak.pkgs = [
-    "dev.geopjr.Collision",
+	"org.gnome.Calendar",
+	"dev.geopjr.Collision",
 	"com.github.GradienceTeam.Gradience",
 ]
 
