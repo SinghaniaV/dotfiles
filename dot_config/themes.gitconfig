@@ -380,6 +380,8 @@
     file-decoration-style = "#84786A" ul
     # No hunk headers
     hunk-header-style = omit
+    # Split-pane view
+    side-by-side = true
     # Line numbers
     line-numbers = true
     line-numbers-left-style = "#84786A"

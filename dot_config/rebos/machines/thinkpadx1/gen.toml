@@ -11,6 +11,8 @@ imports = [
 pkg_managers.system.pkgs = [
 	"libreoffice-fresh",
 	"ripgrep",
+	"python-pipx",
+	"wi",
 	"most",
 	"jq",
 	"telegram-desktop",
@@ -32,6 +34,7 @@ pkg_managers.system.pkgs = [
 	"gnome-tweaks",
 	"network-manager-applet",
 	"gnome-boxes",
+	"baobab",
 	"gnome-browser-connector",
 	"git-delta",
 	"neofetch",

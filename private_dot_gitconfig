@@ -36,3 +36,9 @@
 
 [diff]
 	colorMoved = default
+	
+[http]
+	timeout = 3600
+	
+[lfs]
+	activitytimeout = 3600
