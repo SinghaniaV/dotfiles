@@ -50,12 +50,11 @@ pkg_managers.system.pkgs = [
 	"gnome-firmware",
 	"snapshot",
 	"flatpak",
-	"geary"
+	"evolution"
 ]
 
 # Packages to be installed via Flatpak.
 pkg_managers.flatpak.pkgs = [
-	"org.gnome.Calendar",
 	"dev.geopjr.Collision",
 	"com.github.GradienceTeam.Gradience",
 ]
