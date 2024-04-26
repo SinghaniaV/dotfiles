@@ -61,5 +61,5 @@ pkg_managers.flatpak.pkgs = [
 
 # Packages to be installed via Cargo.
 pkg_managers.cargo.pkgs = [
-    # "bacon",
+    "leetcode-cli"
 ]

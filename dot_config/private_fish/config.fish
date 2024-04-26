@@ -8,7 +8,7 @@ if status is-interactive
 	
 	# zoxide source
 	zoxide init --cmd cd fish | source
-	
+
 	# lsd
 	alias ls="lsd"
 	alias lsl="lsd --long"

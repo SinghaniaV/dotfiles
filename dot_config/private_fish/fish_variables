@@ -1,7 +1,7 @@
 # This file contains fish universal variable definitions.
 # VERSION: 3.0
 SETUVAR --export PAGER:delta
-SETUVAR --path PATH:/usr/local/bin\x1e/usr/bin\x1e/usr/bin/site_perl\x1e/usr/bin/vendor_perl\x1e/usr/bin/core_perl\x1e/home/vishal/\x2elocal/bin\x1e/home/vishal/\x2elocal/bin\x1e/home/vishal/\x2elocal/bin
+SETUVAR --export --path PATH:/home/vishal/\x2ecargo/bin\x1e/usr/local/bin\x1e/usr/bin\x1e/usr/bin/site_perl\x1e/usr/bin/vendor_perl\x1e/usr/bin/core_perl
 SETUVAR __done_kitty_remote_control:1
 SETUVAR __done_min_cmd_duration:5000
 SETUVAR __fish_initialized:3400
@@ -38,6 +38,7 @@ SETUVAR fish_pager_color_description:yellow\x1e\x2di
 SETUVAR fish_pager_color_prefix:normal\x1e\x2d\x2dbold\x1e\x2d\x2dunderline
 SETUVAR fish_pager_color_progress:brwhite\x1e\x2d\x2dbackground\x3dcyan
 SETUVAR fish_pager_color_selected_background:\x2dr
+SETUVAR fish_user_paths:/home/vishal/\x2ecargo/bin
 SETUVAR fzf_diff_highlighter:delta\x1e\x2d\x2dpaging\x3dnever\x1e\x2d\x2dwidth\x3d20
 SETUVAR fzf_directory_opts:\x2d\x2dbind\x1ectrl\x2do\x3aexecute\x28nautilus\x20\x7b\x7d\x20\x26\x3e\x20/dev/tty\x29
 SETUVAR fzf_fd_opts:\x2d\x2dhidden\x1e\x2d\x2dmax\x2ddepth\x1e5
