@@ -57,9 +57,9 @@ pkg_managers.system.pkgs = [
 pkg_managers.flatpak.pkgs = [
 	"dev.geopjr.Collision",
 	"com.github.GradienceTeam.Gradience",
+	"org.localsend.localsend_app"
 ]
 
 # Packages to be installed via Cargo.
 pkg_managers.cargo.pkgs = [
-    "leetcode-cli"
 ]

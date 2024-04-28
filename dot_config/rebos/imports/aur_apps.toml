@@ -6,6 +6,7 @@ pkg_managers.system.pkgs = [
 	"pokemon-colorscripts-git",
 	"nnn-nerd",
 	"informant",
+	"leetgo-bin",
 	"proton-vpn-gtk-app",
 	"gnome-shell-extension-dash-to-dock",
 	"visual-studio-code-bin",
