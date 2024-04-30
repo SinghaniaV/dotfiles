@@ -37,7 +37,7 @@ pkg_managers.system.pkgs = [
 	"baobab",
 	"gnome-browser-connector",
 	"git-delta",
-	"neofetch",
+	"fastfetch",
 	"transmission-gtk",
 	"jupyterlab",
 	"lsd",

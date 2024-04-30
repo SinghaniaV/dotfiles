@@ -9,6 +9,7 @@ pkg_managers.system.pkgs = [
 	"leetgo-bin",
 	"proton-vpn-gtk-app",
 	"gnome-shell-extension-dash-to-dock",
+	"mutter-performance",
 	"visual-studio-code-bin",
 	"webcord-bin",
 	"google-chrome",
