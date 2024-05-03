@@ -8,16 +8,19 @@ imports = [
 ]
 
 # Packages to be installed via the native package manager.
-pkg_managers.system.pkgs = [
+[managers.system]
+items = [
     # "git",
 ]
 
 # Packages to be installed via Flatpak.
-pkg_managers.flatpak.pkgs = [
+[managers.flatpak]
+items = [
     # "com.github.tchx84.Flatseal",
 ]
 
 # Packages to be installed via Cargo.
-pkg_managers.cargo.pkgs = [
+[managers.cargo]
+items = [
     # "bacon",
 ]

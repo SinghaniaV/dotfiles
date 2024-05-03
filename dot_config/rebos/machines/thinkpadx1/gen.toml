@@ -8,11 +8,12 @@ imports = [
 ]
 
 # Packages to be installed via the native package manager.
-pkg_managers.system.pkgs = [
-	"libreoffice-fresh",
+[managers.system]
+items = [
+    "libreoffice-fresh",
 	"ripgrep",
 	"python-pipx",
-	"wi",
+	"iw",
 	"most",
 	"jq",
 	"telegram-desktop",
@@ -30,6 +31,7 @@ pkg_managers.system.pkgs = [
 	"obsidian",
 	"font-manager",
 	"yay",
+	"gimp",
 	"zoxide",
 	"gnome-tweaks",
 	"network-manager-applet",
@@ -54,12 +56,15 @@ pkg_managers.system.pkgs = [
 ]
 
 # Packages to be installed via Flatpak.
-pkg_managers.flatpak.pkgs = [
-	"dev.geopjr.Collision",
+[managers.flatpak]
+items = [
+    "dev.geopjr.Collision",
 	"com.github.GradienceTeam.Gradience",
 	"org.localsend.localsend_app"
 ]
 
 # Packages to be installed via Cargo.
-pkg_managers.cargo.pkgs = [
+[managers.cargo]
+items = [
+    # "bacon",
 ]

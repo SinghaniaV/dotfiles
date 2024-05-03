@@ -1,4 +1,5 @@
-pkg_managers.system.pkgs = [
+[managers.system]
+items = [
 	"brave-bin",
 	"pycharm-professional",
 	"nautilus-admin-gtk4",
@@ -6,6 +7,8 @@ pkg_managers.system.pkgs = [
 	"pokemon-colorscripts-git",
 	"nnn-nerd",
 	"informant",
+	"pacseek-bin",
+	"zotero-bin",
 	"leetgo-bin",
 	"proton-vpn-gtk-app",
 	"gnome-shell-extension-dash-to-dock",
