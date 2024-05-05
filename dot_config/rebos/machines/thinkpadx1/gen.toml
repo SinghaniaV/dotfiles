@@ -31,6 +31,7 @@ items = [
 	"obsidian",
 	"font-manager",
 	"yay",
+	"starship",
 	"gimp",
 	"zoxide",
 	"gnome-tweaks",
@@ -60,7 +61,8 @@ items = [
 items = [
     "dev.geopjr.Collision",
 	"com.github.GradienceTeam.Gradience",
-	"org.localsend.localsend_app"
+	"org.localsend.localsend_app",
+	"org.gnome.gitlab.somas.Apostrophe"
 ]
 
 # Packages to be installed via Cargo.
