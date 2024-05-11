@@ -16,5 +16,6 @@
 	"ignored_packages":
 	[
 		// "Vintage",
+/*"LSP-clangd",*/
 	],
 }

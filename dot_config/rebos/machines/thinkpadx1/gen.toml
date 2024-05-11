@@ -61,7 +61,7 @@ items = [
 items = [
     "dev.geopjr.Collision",
 	"com.github.GradienceTeam.Gradience",
-	"org.localsend.localsend_app",
+	"flathub app.drey.Warp",
 	"org.gnome.gitlab.somas.Apostrophe"
 ]
 

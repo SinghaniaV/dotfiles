@@ -22,7 +22,6 @@ items = [
 	"pam-fprint-grosshack",
 	"timeshift-autosnap",
 	"ventoy-bin",
-	"notify-send.sh",
 	"megasync-bin",
 	"sublime-text-4",
 ]
