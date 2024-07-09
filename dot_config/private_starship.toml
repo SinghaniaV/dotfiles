@@ -9,14 +9,6 @@ $directory\
 [](fg:color_yellow bg:color_aqua)\
 $git_branch\
 [](fg:color_aqua bg:color_blue)\
-$c\
-$rust\
-$golang\
-$nodejs\
-$php\
-$java\
-$kotlin\
-$haskell\
 $python\
 [](fg:color_blue bg:color_bg3)\
 $docker_context\
@@ -37,10 +29,6 @@ color_orange = '#d65d0e'
 color_purple = '#b16286'
 color_red = '#cc241d'
 color_yellow = '#d79921'
-
-[custom]
-command_timeout = 0
-scan_timeout = 0
 
 [os]
 disabled = false
@@ -65,23 +53,18 @@ truncation_symbol = "…/"
 "Documents" = "󰈙 "
 "Downloads" = " "
 "Music" = "󰝚 "
-"Pictures" = " "
-"Developer" = "󰲋 "
+"Pictures" = "  "
+"Codebase" = "󰲋  "
 
 [git_branch]
-symbol = ""
+symbol = " "
 style = "bg:color_aqua"
 format = '[[ $symbol $branch ](fg:color_fg0 bg:color_aqua)]($style)'
 
-[nodejs]
-symbol = ""
+[python]
+symbol = " "
 style = "bg:color_blue"
-format = '[[ $symbol( $version) ](fg:color_fg0 bg:color_blue)]($style)'
-
-[c]
-symbol = " "
-style = "bg:color_blue"
-format = '[[ $symbol( $version) ](fg:color_fg0 bg:color_blue)]($style)'
+format = '[ ${symbol}${pyenv_prefix}(${version} )(\($virtualenv\) )]($style)'
 
 [rust]
 symbol = ""
@@ -92,26 +75,6 @@ format = '[[ $symbol( $version) ](fg:color_fg0 bg:color_blue)]($style)'
 symbol = ""
 style = "bg:color_blue"
 format = '[[ $symbol( $version) ](fg:color_fg0 bg:color_blue)]($style)'
-
-[java]
-symbol = " "
-style = "bg:color_blue"
-format = '[[ $symbol( $version) ](fg:color_fg0 bg:color_blue)]($style)'
-
-[kotlin]
-symbol = ""
-style = "bg:color_blue"
-format = '[[ $symbol( $version) ](fg:color_fg0 bg:color_blue)]($style)'
-
-[python]
-symbol = ""
-style = "bg:color_blue"
-format = '[[ $symbol( $version) $virtualenv ](fg:color_fg0 bg:color_blue)]($style)'
-
-[docker_context]
-symbol = ""
-style = "bg:color_bg3"
-format = '[[ $symbol( $context) ](fg:#83a598 bg:color_bg3)]($style)'
 
 [time]
 disabled = false
@@ -134,3 +97,4 @@ vimcmd_symbol = '[](bold fg:color_green)'
 vimcmd_replace_one_symbol = '[](bold fg:color_purple)'
 vimcmd_replace_symbol = '[](bold fg:color_purple)'
 vimcmd_visual_symbol = '[](bold fg:color_yellow)'
+
