@@ -55,7 +55,9 @@ items = [
 	"flatpak",
 	"unoconv",
 	"docker-compose",
-	"evolution"
+	"evolution",
+	"speech-dispatcher",
+	"hugo",
 ]
 
 # Packages to be installed via Flatpak.
