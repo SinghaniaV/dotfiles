@@ -58,6 +58,7 @@ items = [
 	"evolution",
 	"speech-dispatcher",
 	"git-lfs",
+	"github-cli"
 ]
 
 # Packages to be installed via Flatpak.
