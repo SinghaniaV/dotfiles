@@ -57,7 +57,7 @@ items = [
 	"docker-compose",
 	"evolution",
 	"speech-dispatcher",
-	"hugo",
+	"git-lfs",
 ]
 
 # Packages to be installed via Flatpak.
