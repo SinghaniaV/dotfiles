@@ -68,8 +68,6 @@ items = [
     "dev.geopjr.Collision",
 	"com.github.GradienceTeam.Gradience",
 	"flathub app.drey.Warp",
-	"com.usebottles.bottles",
-	"org.gnome.gitlab.somas.Apostrophe"
 ]
 
 # Packages to be installed via Cargo.

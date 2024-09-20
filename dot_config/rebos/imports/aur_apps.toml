@@ -1,7 +1,6 @@
 [managers.system]
 items = [
 	"brave-bin",
-	"pycharm-professional",
 	"nautilus-admin-gtk4",
 	"morewaita",
 	"pokemon-colorscripts-git",
